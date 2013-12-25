@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>CALCULATOR</title> <!-- Shows name in title bar -->
+<script src="calcu.js"></script> <!-- For linking html with javascript -->
+</head>
+<body>
+<div> <!-- Division or a section in an HTML document for Calculator-->
+<div><input type="textfield" value="" id="txt"></div>  <!-- Division for Text box for showing click events -->
+<div> <!-- Division for buttons 0-9 in calculator -->
+<p> 
+<input type="button" value="7" id="itsseven" onclick='show_on_txtbox("7")'>
+<input type="button" value="8" id="itseight" onclick='show_on_txtbox("8")'>
+<input type="button" value="9" id="itsnine" onclick='show_on_txtbox("9")'>
+<input type="button" value="/" id="itsdivide" onclick='show_on_txtbox("/")'>
+</p>
+<p><input type="button" value="4" id="itsfour"  onclick='show_on_txtbox("4")'>
+<input type="button" value="5" id="itsfive" onclick='show_on_txtbox("5")'>
+<input type="button" value="6" id="itssix" onclick='show_on_txtbox("6")'>
+<input type="button" value="*" id="itsmultiply" onclick='show_on_txtbox("*")'>
+</p>
+<p>
+<input type="button" value="1" id="itsone" onclick='show_on_txtbox("1")'>
+<input type="button" value="2" id="itstwo" onclick='show_on_txtbox("2")'>
+<input type="button" value="3" id="itsthree" onclick='show_on_txtbox("3")'>
+<input type="button" value="-" id="itssubtract" onclick='show_on_txtbox("-")'>
+</p>
+<p>
+<input type="button" value="0" id="itszero" onclick='show_on_txtbox("0")'>
+<input type="button" value=" ." id="itsdot" onclick='show_on_txtbox(".")'>
+<input type="button" value="=" id="itsequal" onclick='equal()'>
+<input type="button" value="+" id="itsadd" onclick='show_on_txtbox("+")'>
+</p>
+<input type="button" value="C" onclick='display("")'>
+
+</div>
+</div>
+</body>
+
+</html>
+
